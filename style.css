@@ -1,0 +1,80 @@
+body {
+	background-color: #008080;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h3 {
+	font-size: 50px;
+	text-align: center;
+	color: white;
+}
+
+.flex-wrapper {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.add-todo-wrapper {
+	display: flex;
+	width: 500px;
+	min-height: 50px;
+	align-items: center;
+	background-color: darkgoldenrod;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.input-wrapper {
+	width: 100%;
+}
+
+.input-wrapper input {
+	width: 100%;
+	min-height: 30px;
+}
+
+.button-wrapper button {
+	font-size: 16px;
+	font-weight: 800;
+	margin-left: 5px;
+	color: red;
+	border-radius: 5px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.todo-item {
+	width: 500px;
+	background-color: orange;
+	display: flex;
+	justify-content: space-between;
+}
+
+.description {
+	padding: 5px;
+	font-size: 20px;
+	font-weight: 1000;
+	letter-spacing: 5px;
+}
+
+.btn-complete {
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+}
+
+.btn-delete {
+	padding: 5px;
+	background-color: plum;
+	color: red;
+	font-size: 20px;
+	font-weight: 800;
+}
